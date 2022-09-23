@@ -100,24 +100,27 @@ main {
     width: 80%;
 }
 
-.carousel__slide > .carousel__item {
-  transform: scale(1);
-  transition: 0.25s;
-}
-.carousel__slide--visible > .carousel__item {
-  opacity: 1;
-  transform: rotateY(0);
-}
-.carousel__slide--next > .carousel__item {
-  transform: translate(-10px);
-  height: 275px;
-}
-.carousel__slide--prev > .carousel__item {
-  transform: translate(10px);
-  height: 275px;
-}
-.carousel__slide--active > .carousel__item {
-  height: 375px
+@media (min-width: 750px) {
+    .carousel__slide > .carousel__item {
+    transform: scale(1);
+    transition: 0.25s;
+    }
+    .carousel__slide--visible > .carousel__item {
+    opacity: 1;
+    transform: rotateY(0);
+    }
+    .carousel__slide--next > .carousel__item {
+    transform: translate(-10px);
+    height: 275px;
+    }
+    .carousel__slide--prev > .carousel__item {
+    transform: translate(10px);
+    height: 275px;
+    }
+    .carousel__slide--active > .carousel__item {
+    height: 375px
+    }
+
 }
 
 @media (max-width: 700px) {
