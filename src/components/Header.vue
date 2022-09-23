@@ -34,6 +34,7 @@ watch(search, (curr, prev)=> {
 const searchPkmn = ()=> {
     if(!search.value) return
     emit('search', search.value)
+    toggleMenu()
 }
 
 const resetList = ()=> {
