@@ -1,0 +1,23 @@
+{
+  "name": "pokedex",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "get-data": "node src/data/getData.js"
+  },
+  "dependencies": {
+    "apexcharts": "^3.35.5",
+    "vue": "^3.2.37",
+    "vue-universal-modal": "^1.1.4",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-carousel": "^0.1.46"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0"
+  }
+}
