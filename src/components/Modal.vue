@@ -161,6 +161,7 @@ const getData = ()=> {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-weight: 700;
+    width: 95px;
 }
 
 .weight-height {
